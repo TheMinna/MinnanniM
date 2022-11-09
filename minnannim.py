@@ -8,8 +8,12 @@ turtle.Screen().bgcolor("salmon")
 minna.pensize(15)
 minna.pencolor("white")
 
+minna.penup()
+minna.goto(0, 40)
+minna.pendown()
+
 minna.left(90)
-minna.forward(50)
+minna.forward(10)
 minna.circle(40,180)
 minna.forward(50)
 minna.right(180)
